@@ -1,0 +1,5 @@
+gcc -o jng.datatype init.c class.c -use-dynld -nostartfiles -lmng -lz -ljpeg -llcms -O3 ;-ggdb -g ;-O3
+;strip jng.datatype
+copy jng.datatype sys:classes/datatypes/
+flush
+

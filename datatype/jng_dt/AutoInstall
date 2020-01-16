@@ -1,0 +1,3 @@
+; autoinstall for jng_dt
+cd jng_dt
+Installer Install APPNAME JNGDTAutoInstall DEFUSER NOVICE

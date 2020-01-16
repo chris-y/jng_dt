@@ -1,0 +1,59 @@
+Short:        JNG/MNG/PNG picture datatype
+Uploader:     chris@unsatisfactorysoftware.co.uk (Chris Young)
+Author:       chris@unsatisfactorysoftware.co.uk (Chris Young)
+Type:         util/dtype
+Version:      1.3
+URL:          http://www.unsatisfactorysoftware.co.uk/
+Architecture: ppc-amigaos >= 4.0.0
+
+This is a datatype for JNG pictures.  JNG is a format based on
+JPEG, primarily used within MNG animations.
+
+This datatype uses libmng (www.libmng.com).  As a side-effect
+it also supports MNG (first frame only) and PNG (although I
+doubt there are any advantages over the OS4 standard one)
+
+INSTALLATION
+============
+
+Double-click on Install and follow the prompts.  The installation
+process automagically only selects the descriptors for formats that
+do not already exist on your system - eg. your existing PNG datatype
+will continue to be used for PNGs!  If you wish to override this,
+run the installation through in Expert mode and manually select the
+formats you want to use with jng.datatype.
+
+History
+=======
+
+v1.4
+* Recompile with latest SDK
+* (fix descriptor?)
+
+v1.3
+* Shared objects version - no code changes
+* Stopped the descriptors unnecessarily reading files
+
+v1.2 (17.05.2008)
+* Fixed the transparency.
+* Fixed the MNG descriptor to give it a bit more priority as the
+  JPEG one was being used for some files.  Please delete
+  DEVS:DataTypes/MNG before running the installer to update.
+
+v1.1 (14.05.2008)
+First release, based on libmng 1.0.10
+-------
+
+The icons are by Ken "Ken's Icons" Lester.
+
+As usual, I can and will not accept responsibility for any damage,
+loss of data etc incurred through use of this software.  This archive
+is provided "as-is" without warranty of any kind and all use is at
+your own risk.
+
+Please check the PGP signature in the Aminet readme against the
+archive to ensure it has not been tampered with.
+
+The primary download location for my software is Aminet (www.aminet.net)
+If you obtained this from elsewhere, please check Aminet for a newer
+version.
